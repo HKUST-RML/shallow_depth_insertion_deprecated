@@ -2,6 +2,8 @@
 
 This is a ROS package to demonstrate a robotic manipulation technique, particularly assembling a thin object into a complementary shallow hole. The utilized hardware includes UR10 robotic arm and Robotiq 2-Finger 140mm Adaptive parallel-jaw gripper. 
 
+To watch video, see: [here](https://www.youtube.com/watch?v=Nka-sCzrcSs)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -29,14 +31,14 @@ These instructions will get you a copy of the project up and running on your loc
 1. Appropriately connect to the robot arm and gripper hardwares. 
 2. Launch 
 ```
-roslaunch Shallow_Depth_Insertion manipulation_ur10.launch
+roslaunch shallow_depth_insertion manipulation_ur10.launch
 ```
 ```
-roslaunch Shallow_Depth_Insertion april_tags.launch
+roslaunch shallow_depth_insertion april_tags.launch
 ```
 3. Run the executable python script:
 ```
-rosrun Shallow_Depth_Insertion shallow_depth_insertion.py
+rosrun shallow_depth_insertion shallow_depth_insertion.py
 ```
 
 ## Authors
